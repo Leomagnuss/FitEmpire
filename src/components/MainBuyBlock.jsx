@@ -34,8 +34,16 @@ const BuyBlockSubTitleText = styled.div`
     color: white;
     font-weight: 600;
     font-style: italic;
-    padding: 65px 0 0 260px;
+    padding: 65px 0 65px 260px;
     align-items: flex-start;
+`
+
+const BuyBoxBlock = styled.div`
+    
+`
+
+const BuyBox = styled.div`
+    
 `
 
 const MainBuyBlock = () => {
@@ -48,7 +56,11 @@ const MainBuyBlock = () => {
                     <SubTitle>Certified product from the company</SubTitle>
                 </BuyTitle>
                 <BuyBlockSubTitleText><img src="./images/BuyBlockSubTitleText.svg" alt="" />All products can be purchased on the fitness center's <br /> website or in the center itself at the reception.</BuyBlockSubTitleText>
-
+                <BuyBoxBlock>
+                    <BuyBox>
+                        
+                    </BuyBox>
+                </BuyBoxBlock>
             </BuyBlock>
         </div>
     )
