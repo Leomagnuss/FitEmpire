@@ -10,6 +10,7 @@ const TickBlock = styled.div`
     display:flex;
     justify-content:space-around;
     align-items: flex-start;
+    padding-bottom: 100px;
 `
 
 const Title = styled.h1`
