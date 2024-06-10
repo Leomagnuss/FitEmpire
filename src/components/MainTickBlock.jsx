@@ -86,7 +86,6 @@ const MainTickBlock = () => {
             </TitleTextTick>
             <TickPhotoBlock><img src="./images/Tickimage.svg" alt="" /></TickPhotoBlock>
         </TickBlock>
-        
     </div>
   )
 }
