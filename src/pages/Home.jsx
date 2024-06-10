@@ -16,10 +16,6 @@ const BackDecorLine = styled.div`
   position: absolute;
 `
 
-// const Navbar = styled.div`
-//   z-index:1;
-// `
-
 const Home = () => {
   return (
     <div>
