@@ -198,8 +198,8 @@ function MouseOver() {
    BuyBefore.style.zIndex = 0;
    BuyAfter.style.opacity = 1;
    BuyBefore.style.opacity = 0;
-   BuyBefore.style.transition = '0.4s';
-   
+   BuyBefore.style.transition = '0.7s';
+   BuyAfter.style.transition = '0.7s';
 }
 
 function MouseOut() {
@@ -208,7 +208,9 @@ function MouseOut() {
     BuyAfter.style.opacity = 0;
     BuyBefore.style.opacity = 1;
     BuyBefore.style.zIndex = 3;
-    BuyBefore.style.transition = '0.4s';
+    BuyBefore.style.transition = '0.7s';
+    BuyAfter.style.transition = '0.7s';
+
 }
 
 function MouseOver2() {
@@ -217,7 +219,9 @@ function MouseOver2() {
     BuyBefore2.style.zIndex = 0;
     BuyAfter2.style.opacity = 1;
     BuyBefore2.style.opacity = 0;
-    BuyBefore2.style.transition = '0.4s';
+    BuyBefore2.style.transition = '0.7s';
+    BuyAfter2.style.transition = '0.7s';
+
     
  }
  
@@ -227,7 +231,8 @@ function MouseOver2() {
      BuyAfter2.style.opacity = 0;
      BuyBefore2.style.opacity = 1;
      BuyBefore2.style.zIndex = 3;
-     BuyBefore2.style.transition = '0.4s';
+     BuyBefore2.style.transition = '0.7s';
+     BuyAfter2.style.transition = '0.7s';
   }
   function MouseOver3() {
     let BuyBefore3 = document.getElementById('firstBuyBlock3');
@@ -235,7 +240,8 @@ function MouseOver2() {
     BuyBefore3.style.zIndex = 0;
     BuyAfter3.style.opacity = 1;
     BuyBefore3.style.opacity = 0;
-    BuyBefore3.style.transition = '0.4s';
+    BuyBefore3.style.transition = '0.7s';
+    BuyAfter3.style.transition = '0.7s';
     
  }
  
