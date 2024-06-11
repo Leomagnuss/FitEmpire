@@ -5,6 +5,7 @@ import MainPartnersBlock from '../components/MainPartnersBlock'
 import styled from 'styled-components'
 import MainTickBlock from '../components/MainTickBlock'
 import MainBuyBlock from '../components/MainBuyBlock'
+import Footer from '../components/Footer'
 
 const MainDecor = styled.div`
  background-image: url("./images/BackDekorLine.svg");
@@ -27,6 +28,7 @@ const Home = () => {
         <MainPartnersBlock/>
         <MainTickBlock/>
         <MainBuyBlock/>
+        <Footer/>
         </MainDecor>
       
     </div>
