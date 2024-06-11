@@ -209,7 +209,44 @@ function MouseOut() {
     BuyBefore.style.opacity = 1;
     BuyBefore.style.zIndex = 3;
     BuyBefore.style.transition = '0.4s';
+}
+
+function MouseOver2() {
+    let BuyBefore2 = document.getElementById('firstBuyBlock2');
+    let BuyAfter2 = document.getElementById('SecondBuyBlock2');
+    BuyBefore2.style.zIndex = 0;
+    BuyAfter2.style.opacity = 1;
+    BuyBefore2.style.opacity = 0;
+    BuyBefore2.style.transition = '0.4s';
+    
  }
+ 
+ function MouseOut2() {
+     let BuyBefore2 = document.getElementById('firstBuyBlock2');
+     let BuyAfter2 = document.getElementById('SecondBuyBlock2');
+     BuyAfter2.style.opacity = 0;
+     BuyBefore2.style.opacity = 1;
+     BuyBefore2.style.zIndex = 3;
+     BuyBefore2.style.transition = '0.4s';
+  }
+  function MouseOver3() {
+    let BuyBefore3 = document.getElementById('firstBuyBlock3');
+    let BuyAfter3 = document.getElementById('SecondBuyBlock3');
+    BuyBefore3.style.zIndex = 0;
+    BuyAfter3.style.opacity = 1;
+    BuyBefore3.style.opacity = 0;
+    BuyBefore3.style.transition = '0.4s';
+    
+ }
+ 
+ function MouseOut3() {
+     let BuyBefore3 = document.getElementById('firstBuyBlock3');
+     let BuyAfter3 = document.getElementById('SecondBuyBlock3');
+     BuyAfter3.style.opacity = 0;
+     BuyBefore3.style.opacity = 1;
+     BuyBefore3.style.zIndex = 3;
+     BuyBefore3.style.transition = '0.4s';
+  }
 
 
 const MainBuyBlock = () => {
@@ -231,6 +268,39 @@ const MainBuyBlock = () => {
                         </BuyBox>
                         <BuyBoxAfter id='SecondBuyBlock' onMouseOver={MouseOver} onMouseOut={MouseOut}>
                             <BuyBox2 id='b2'>
+                                <BuyBoxFront2><img src="./images/BuyBoxFront.svg" alt="" /></BuyBoxFront2>
+                                <BottlePic2><img src="./images/BottlePic2_2.svg" alt="" /></BottlePic2>
+                                <BuyBoxText2>Fit Bottle</BuyBoxText2>
+                                <BuyBoxText2sec>7.49$<SecSpan>-20%</SecSpan></BuyBoxText2sec>
+                                <BuyBoxText2sec2>5.99$</BuyBoxText2sec2>
+                                <BuyBox2Button>BUY</BuyBox2Button>
+                            </BuyBox2>
+                        </BuyBoxAfter>
+                    </BuyBoxCont>
+                    <BuyBoxCont>
+                        <BuyBox id='firstBuyBlock2' onMouseOver={MouseOver2}>
+                            <BuyBoxFront><img id='b12' src="./images/BuyBoxFront.svg" alt="" /></BuyBoxFront>
+                            <BottlePic1><img id='b12' src="./images/BottlePic2.svg" alt="" /></BottlePic1>
+                            <BuyBoxText1>Fit Bottle</BuyBoxText1>
+                        </BuyBox>
+                        <BuyBoxAfter id='SecondBuyBlock2' onMouseOver={MouseOver2} onMouseOut={MouseOut2}>
+                            <BuyBox2 id='b22'>
+                                <BuyBoxFront2><img src="./images/BuyBoxFront.svg" alt="" /></BuyBoxFront2>
+                                <BottlePic2><img src="./images/BottlePic2_2.svg" alt="" /></BottlePic2>
+                                <BuyBoxText2>Fit Bottle</BuyBoxText2>
+                                <BuyBoxText2sec>7.49$<SecSpan>-20%</SecSpan></BuyBoxText2sec>
+                                <BuyBoxText2sec2>5.99$</BuyBoxText2sec2>
+                                <BuyBox2Button>BUY</BuyBox2Button>
+                            </BuyBox2>
+                        </BuyBoxAfter>
+                    </BuyBoxCont><BuyBoxCont>
+                        <BuyBox id='firstBuyBlock3' onMouseOver={MouseOver3}>
+                            <BuyBoxFront><img id='b1' src="./images/BuyBoxFront.svg" alt="" /></BuyBoxFront>
+                            <BottlePic1><img id='b1' src="./images/BottlePic2.svg" alt="" /></BottlePic1>
+                            <BuyBoxText1>Fit Bottle</BuyBoxText1>
+                        </BuyBox>
+                        <BuyBoxAfter id='SecondBuyBlock3' onMouseOver={MouseOver3} onMouseOut={MouseOut3}>
+                            <BuyBox2 id='b23'>
                                 <BuyBoxFront2><img src="./images/BuyBoxFront.svg" alt="" /></BuyBoxFront2>
                                 <BottlePic2><img src="./images/BottlePic2_2.svg" alt="" /></BottlePic2>
                                 <BuyBoxText2>Fit Bottle</BuyBoxText2>
