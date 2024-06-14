@@ -171,6 +171,17 @@ const BuyBoxText2sec2 = styled.div`
     text-decoration-line: underline;
 `
 
+const BuyBoxText3 = styled.div`
+    font-family: 'Roboto';
+    font-size: 17px;
+    color: #e4e4e4;
+    font-weight: 600;
+    font-style: italic;
+    position: absolute;
+    top: 85px;
+    left: 29px;
+`
+
 const BuyBox2Button = styled.div`
     position: absolute;
     display: flex;
@@ -277,6 +288,7 @@ const MainBuyBlock = () => {
                                 <BuyBoxFront2><img src="./images/BuyBoxFront.svg" alt="" /></BuyBoxFront2>
                                 <BottlePic2><img src="./images/BottlePic2_2.svg" alt="" /></BottlePic2>
                                 <BuyBoxText2>Fit Bottle</BuyBoxText2>
+                                <BuyBoxText3>more convenient <br/> and safer</BuyBoxText3>
                                 <BuyBoxText2sec>7.49$<SecSpan>-20%</SecSpan></BuyBoxText2sec>
                                 <BuyBoxText2sec2>5.99$</BuyBoxText2sec2>
                                 <BuyBox2Button>BUY</BuyBox2Button>
@@ -294,6 +306,7 @@ const MainBuyBlock = () => {
                                 <BuyBoxFront2><img src="./images/BuyBoxFront.svg" alt="" /></BuyBoxFront2>
                                 <BottlePic2><img src="./images/BottlePic2_2.svg" alt="" /></BottlePic2>
                                 <BuyBoxText2>Fit Bottle</BuyBoxText2>
+                                <BuyBoxText3>more convenient <br/> and safer</BuyBoxText3>
                                 <BuyBoxText2sec>7.49$<SecSpan>-20%</SecSpan></BuyBoxText2sec>
                                 <BuyBoxText2sec2>5.99$</BuyBoxText2sec2>
                                 <BuyBox2Button>BUY</BuyBox2Button>
@@ -310,6 +323,7 @@ const MainBuyBlock = () => {
                                 <BuyBoxFront2><img src="./images/BuyBoxFront.svg" alt="" /></BuyBoxFront2>
                                 <BottlePic2><img src="./images/BottlePic2_2.svg" alt="" /></BottlePic2>
                                 <BuyBoxText2>Fit Bottle</BuyBoxText2>
+                                <BuyBoxText3>more convenient <br/> and safer</BuyBoxText3>
                                 <BuyBoxText2sec>7.49$<SecSpan>-20%</SecSpan></BuyBoxText2sec>
                                 <BuyBoxText2sec2>5.99$</BuyBoxText2sec2>
                                 <BuyBox2Button>BUY</BuyBox2Button>

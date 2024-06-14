@@ -64,31 +64,31 @@ const TickPhotoBlock = styled.div`
 `
 
 const MainTickBlock = () => {
-  return (
-    <div>
-        <TickBlock>
-            <TitleTextTick>
-                <TitleBlock>
-                    <Title>Freedom</Title>
-                    <img src="./images/Kettlebell.svg" alt="" />   
-                </TitleBlock>
-                <TickTextBlock>
-                    <TickPic>
-                    <Tick><img src="./images/TickPic.svg" alt="" /></Tick>
-                    <Tick><img src="./images/TickPic.svg" alt="" /></Tick>
-                    <Tick><img src="./images/TickPic.svg" alt="" /></Tick>
-                    </TickPic>
-                    <TextTick>
-                        <TextIn>Complete freedom of your <TextInColor>training.</TextInColor></TextIn>
-                        <TextIn><TextInColor>Trane</TextInColor> alone or in a group.</TextIn>
-                        <TextIn>On your own or with a <TextInColor>professional.</TextInColor></TextIn>
-                    </TextTick>
-                </TickTextBlock>
-            </TitleTextTick>
-            <TickPhotoBlock><img src="./images/Tickimage.svg" alt="" /></TickPhotoBlock>
-        </TickBlock>
-    </div>
-  )
+    return (
+        <div>
+            <TickBlock>
+                <TitleTextTick>
+                    <TitleBlock>
+                        <Title>Freedom</Title>
+                        <img src="./images/Kettlebell.svg" alt="" />
+                    </TitleBlock>
+                    <TickTextBlock>
+                        <TickPic>
+                            <Tick><img src="./images/TickPic.svg" alt="" /></Tick>
+                            <Tick><img src="./images/TickPic.svg" alt="" /></Tick>
+                            <Tick><img src="./images/TickPic.svg" alt="" /></Tick>
+                        </TickPic>
+                        <TextTick>
+                            <TextIn>Complete freedom of your <TextInColor>training.</TextInColor></TextIn>
+                            <TextIn><TextInColor>Trane</TextInColor> alone or in a group.</TextIn>
+                            <TextIn>On your own or with a <TextInColor>professional.</TextInColor></TextIn>
+                        </TextTick>
+                    </TickTextBlock>
+                </TitleTextTick>
+                <TickPhotoBlock><img src="./images/Tickimage.svg" alt="" /></TickPhotoBlock>
+            </TickBlock>
+        </div>
+    )
 }
 
 export default MainTickBlock
